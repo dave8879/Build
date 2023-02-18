@@ -1,5 +1,28 @@
+@font-face {
+  font-family: 'Museo Sans Light';
+  src: url('../fonts/MuseoSansCyrl-300.eot');
+  src: url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MuseoSansCyrl-300.woff') format('woff'),
+  url('../fonts/MuseoSansCyrl-300.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Museo Sans Bold';
+    src: url('../fonts/MuseoSansCyrl-700.eot');
+    src: url('../fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MuseoSansCyrl-700.woff') format('woff'),
+    url('../fonts/MuseoSansCyrl-700.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
+
+
 .body{
-    font-family: sans-serif;
+  font-family: 'Museo Sans Light';
 }
 
 .img{
@@ -41,6 +64,8 @@
     color: #333333;
     font-size: 13px;
     font-weight: 400;
+    font-family: "Museo Sans Cyrl";
+    font-weight: 300;
 }
 
 .header__phone{
@@ -50,6 +75,8 @@
     text-decoration: none;
     display: block;
     margin-top: 5px;
+    font-family: "Museo Sans Cyrl";
+    font-weight: 700;
 }
 
 .header__button{
@@ -57,6 +84,8 @@
     border-radius: 10px;
     margin-left: 30px;
     font-size: 13px;
+    font-family: "Museo Sans Cyrl";
+    font-weight: 700;
 }
 
 .header{
@@ -83,18 +112,21 @@
 }
 
 .main-text__title{
-    font-size: 26px;
+    font-size: 46px;
     color: #333;
     padding-right: 200px;
     line-height: 55px;
     margin: 45px 0 20px 0;
-   
+    font-family: "Museo Sans Cyrl";
+    font-weight: 700;
 }
 
 .main-text__subtitle{
     font-size: 20px;
     line-height: 65px;
     color: #333333;
+    font-family: "Museo Sans Cyrl";
+    font-weight: 300;
    
 }
 
@@ -127,7 +159,8 @@ margin-bottom: 20px;
     font-size: 14px;
     color: #333333;
     max-width: 300px;
-    
+    font-family: "Museo Sans Cyrl";
+    font-weight: 300;
 }
 
 
@@ -146,7 +179,7 @@ margin-bottom: 20px;
     .main-text { margin-bottom: 30px; } 
   }
   @media screen and (max-width: 1200px) {
-    .main-text__title { padding-right: 10px; } 
+    .main-text__title { padding-right: 10px;font-size: 51px } 
   }
  
   @media screen and (max-width: 640px) {
