@@ -91,6 +91,7 @@ box
     font-weight: 700;
 }
 
+
 .header__button{
     padding: 18px 47px;
     border-radius: 10px;
@@ -239,6 +240,17 @@ margin-bottom: 30px;
     font-size: 16px;
 }
 
+.information{columns: 2;
+  column-width: 200px;
+  column-gap: 20px;
+padding-top: 30px;
+font-family: "Museo Sans Cyrl";
+font-weight: 300;
+font-size: 16px;
+color: #333;}
+
+
+
 
 @media screen and (max-width: 640px) {
     .container { width: 90%; }
@@ -309,3 +321,4 @@ margin-bottom: 30px;
   @media screen and (max-width: 768px) {
     .offer_block { padding-right: 0; }
   }
+
