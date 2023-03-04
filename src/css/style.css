@@ -178,6 +178,14 @@ margin-bottom: 20px;
     font-weight: 300;
 }
 
+.section__title{
+  font-size: 30px;
+  font-family: "Museo Sans Cyrl";
+font-weight: 700;
+text-align: center;
+line-height: 45px;
+}
+
 .offer{
   padding: 90px 0;
   background: url(../img/offer\ bg.jpg) no-repeat;
@@ -258,6 +266,43 @@ color: #333;}
   background-color: rgba(0, 0, 0, 0.5);
   display: none;
 }
+
+.portfolio{
+  padding: 100px 0;
+  background-color: #f5f5f5;
+  background: #f5f5f5 url("/src/img/portfolio-bg.png") center repeat-y;
+  background-size: 100%;
+  
+  
+}
+.slider__image{
+  margin: auto;
+  width: 375px;
+  height: 300px;
+}
+
+.portfolio__arrows{
+  min-width: 120px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.arrows__left, .arrows__right{
+  cursor: pointer;
+}
+
+.portfolio__title{
+  font-size: 30px;
+  font-family: "Museo Sans Cyrl";
+font-weight: 700;
+text-align: center;
+margin: bottom 100px; ;
+line-height: 45px;
+color: #333;
+}
+
 
 .modal_active{
   display: flex;
@@ -352,3 +397,4 @@ color: #333;}
     .offer_block { padding-right: 0; }
   }
 
+  
