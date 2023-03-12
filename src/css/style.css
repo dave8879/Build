@@ -425,6 +425,84 @@ color: #333;
   opacity: 1;
 }
 
+.steps__title{
+  margin-bottom: 60px;
+}
+.steps{
+  padding-bottom: 120px;
+}
+
+.icons{display: flex;
+justify-content: space-between;}
+
+.icon{
+  text-align: center;
+  position: relative;
+}
+
+.icon:last-child::after {
+  display: none;
+}
+
+.icon::after{
+  content: "";
+  position: absolute;
+  display: block;
+  top: -10px;
+  right: -90px;
+  width: 72px;
+  height: 25px;
+  background-image: url("../img/IconArrowRight.png");
+}
+
+
+
+
+
+
+.icon__image{
+  width: 100px;
+  height: 100px;
+  border: 3px solid #ffd200;
+  background-color: #fff;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.img{
+  width: 30px;
+height: 30px;
+display: inline-block;}
+
+.icon__text{
+  max-width: 140px;
+  display: inline-block;
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.steps__subtitle{
+  margin-bottom: 75px;
+}
+
+.notice{
+  background-color: #ffc000;
+  padding: 100px 0;
+}
+
+.notice__text{
+  text-align: center;
+  font-size: 32px;
+  max-width: 750px;
+  margin: auto;
+  line-height: 50px;
+  font-weight: 300;
+}
 
 @media screen and (max-width: 640px) {
     .container { width: 90%; }
@@ -511,4 +589,16 @@ color: #333;
     .card { margin-left: -6%; }
   }
 
+  @media screen and (max-width: 640px) {
+    .icons { flex-direction: column; }
+  }
  
+  @media screen and (max-width: 640px) {
+    .icon::after { display: none;}
+  }
+  
+  @media screen and (max-width: 640px) {
+    .icon__text { padding-bottom: 40px;}
+  }
+
+
