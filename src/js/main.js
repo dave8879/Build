@@ -15,6 +15,19 @@ button.on("click", function(){
 close.on("click", function(){
     modal.removeClass("modal_active")
 });
+
+// Validace formuláře
+
+$("#brief-form").validate({
+  rules:{
+    username: "required"
+  }
+  ,messages: {
+    username: "Zadejte vaše správné jméno"
+  }
+});
+
+
 // Napojení slideru 
 $(".slider").slick({
     slidesToShow: 3,

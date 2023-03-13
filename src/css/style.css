@@ -669,6 +669,69 @@ line-height: 24px;
   font-size: 16px;
 }
 
+.error{
+  border: 2px solid red;
+}
+
+.footer{
+  position: relative;
+}
+
+.map{
+  width: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.contats{ 
+  flex-basis: 50%;
+  padding-top: 100px;
+  padding-left: 200px;
+}
+
+.contacts__title{
+  font-size: 22px;
+  font-family: "Museo Sans Cyrl";
+  font-weight: 700;
+  line-height: 33px;
+  margin-bottom: 100px;
+}
+
+.contacts-block{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contacts-list{padding: 0;
+      list-style-type: none;}
+
+.contacts-list__item{
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.contacts-list__icon{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  margin-right: 20px;
+}
+
+.contacts-list__text{
+  line-height: 1.4;
+}
+
+.contacts-list__text a{
+  color: #000;
+  text-decoration: none;
+}
+
+.contacts-list__text a:hover{
+  text-decoration: underline;
+}
 
 @media screen and (max-width: 640px) {
     .container { width: 90%; }
@@ -849,3 +912,25 @@ line-height: 24px;
   }
 
 
+
+
+
+  @media screen and (max-width: 768px) {
+    .contacts-block {
+      flex-direction: column-reverse;
+      padding-left: 0;
+      
+    }
+
+    
+
+    .map {
+      left: 0;
+      top: 0; 
+      width: 100%; 
+      margin-top: 650px;
+     
+    }
+  }
+ 
+  
